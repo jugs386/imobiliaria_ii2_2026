@@ -52,7 +52,7 @@ if(isset($_POST['btnSalvar'])){
     //Chama uma função PHP que permite informar a classe e o Método que será acionado
     call_user_func(array('UsuarioController','salvar'));
     //redireciona para a lista de usuários
-    header('Location: index.php?action=listar');
+    header('Location: index.php?page=usuario&action=listar');
 }
 
 ?>

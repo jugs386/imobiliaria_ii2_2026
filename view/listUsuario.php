@@ -6,7 +6,7 @@
             <tr>
                 <th>Login</th>
                 <th>Permissão</th>
-                <th><a href="index.php">Novo</a></th>
+                <th><a href="index.php?page=usuario">Novo</a></th>
             </tr>
         </thead>
         <tbody>
@@ -25,8 +25,8 @@
                         <td><?php echo $usuario->getLogin(); ?></td>
                         <td><?php echo $usuario->getPermissao(); ?></td>
                         <td>
-                            <a href="index.php?action=editar&id=<?php echo $usuario->getId(); ?>">Editar</a>
-                            <a href="index.php?action=excluir&id=<?php echo $usuario->getId(); ?>">Excluir</a>
+                            <a href="index.php?page=usuario&action=editar&id=<?php echo $usuario->getId(); ?>">Editar</a>
+                            <a href="index.php?page=usuario&action=excluir&id=<?php echo $usuario->getId(); ?>">Excluir</a>
                         </td>
                     </tr>
                     <?php
