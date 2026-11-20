@@ -12,7 +12,7 @@ class Conexao{
     private $servername = "localhost";   // endereço do banco de dados
     private $port       = "3306";        // porta de acesso
     private $username   = "root";        // usuário de acesso ao banco (em produção NÃO use o root)
-    private $password   = "123456";      // senha de acesso ao banco
+    private $password   = "HORTETEC_115";      // senha de acesso ao banco
     private $database   = "imobiliaria"; // nome do banco de dados
     private $conection;
 
